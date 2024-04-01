@@ -1,0 +1,36 @@
+[3.198s] Invoking command in '/home/kv/ME_ws/src/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data
+[4.180s] running egg_info
+[4.187s] creating ../../build/me_py_pkg/me_py_pkg.egg-info
+[4.188s] writing ../../build/me_py_pkg/me_py_pkg.egg-info/PKG-INFO
+[4.188s] writing dependency_links to ../../build/me_py_pkg/me_py_pkg.egg-info/dependency_links.txt
+[4.188s] writing entry points to ../../build/me_py_pkg/me_py_pkg.egg-info/entry_points.txt
+[4.189s] writing requirements to ../../build/me_py_pkg/me_py_pkg.egg-info/requires.txt
+[4.189s] writing top-level names to ../../build/me_py_pkg/me_py_pkg.egg-info/top_level.txt
+[4.189s] writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[4.190s] reading manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[4.193s] writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[4.195s] running build
+[4.196s] running build_py
+[4.196s] creating /home/kv/ME_ws/build/me_py_pkg/build
+[4.197s] creating /home/kv/ME_ws/build/me_py_pkg/build/lib
+[4.197s] creating /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[4.197s] copying me_py_pkg/__init__.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[4.197s] copying me_py_pkg/my_first_node.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[4.197s] running install
+[4.198s] running install_lib
+[4.211s] creating /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[4.211s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/__init__.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[4.212s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/my_first_node.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[4.212s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/__init__.py to __init__.cpython-310.pyc
+[4.212s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[4.212s] running install_data
+[4.212s] creating /home/kv/ME_ws/install/me_py_pkg/share/ament_index
+[4.212s] creating /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index
+[4.213s] creating /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages
+[4.213s] copying resource/me_py_pkg -> /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages
+[4.213s] copying package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg
+[4.213s] running install_egg_info
+[4.213s] Copying ../../build/me_py_pkg/me_py_pkg.egg-info to /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info
+[4.214s] running install_scripts
+[4.291s] writing list of installed files to '/home/kv/ME_ws/build/me_py_pkg/install.log'
+[4.361s] Invoked command in '/home/kv/ME_ws/src/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data

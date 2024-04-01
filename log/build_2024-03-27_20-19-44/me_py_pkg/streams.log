@@ -1,0 +1,19 @@
+[3.875s] Invoking command in '/home/kv/ME_ws/build/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build --no-deps symlink_data --force
+[5.495s] running develop
+[6.495s] running egg_info
+[6.496s] writing me_py_pkg.egg-info/PKG-INFO
+[6.511s] writing dependency_links to me_py_pkg.egg-info/dependency_links.txt
+[6.511s] writing entry points to me_py_pkg.egg-info/entry_points.txt
+[6.511s] writing requirements to me_py_pkg.egg-info/requires.txt
+[6.512s] writing top-level names to me_py_pkg.egg-info/top_level.txt
+[6.512s] reading manifest file 'me_py_pkg.egg-info/SOURCES.txt'
+[6.516s] writing manifest file 'me_py_pkg.egg-info/SOURCES.txt'
+[6.520s] running build_ext
+[6.522s] Creating /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me-py-pkg.egg-link (link to .)
+[6.533s] Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[6.534s] 
+[6.540s] Installed /home/kv/ME_ws/build/me_py_pkg
+[6.541s] running symlink_data
+[6.542s] symbolically linking /home/kv/ME_ws/build/me_py_pkg/resource/me_py_pkg -> /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages
+[6.543s] symbolically linking /home/kv/ME_ws/build/me_py_pkg/package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg
+[6.646s] Invoked command in '/home/kv/ME_ws/build/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build --no-deps symlink_data --force

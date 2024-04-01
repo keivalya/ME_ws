@@ -1,0 +1,41 @@
+[4.966s] Invoking command in '/home/kv/ME_ws/build/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build
+[6.914s] running develop
+[8.166s] Removing /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me-py-pkg.egg-link (link to .)
+[8.289s] Invoked command in '/home/kv/ME_ws/build/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build
+[8.298s] Invoking command in '/home/kv/ME_ws/src/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data --force
+[10.050s] running egg_info
+[10.054s] writing ../../build/me_py_pkg/me_py_pkg.egg-info/PKG-INFO
+[10.055s] writing dependency_links to ../../build/me_py_pkg/me_py_pkg.egg-info/dependency_links.txt
+[10.057s] writing entry points to ../../build/me_py_pkg/me_py_pkg.egg-info/entry_points.txt
+[10.057s] writing requirements to ../../build/me_py_pkg/me_py_pkg.egg-info/requires.txt
+[10.058s] writing top-level names to ../../build/me_py_pkg/me_py_pkg.egg-info/top_level.txt
+[10.068s] reading manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[10.099s] writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[10.099s] running build
+[10.100s] running build_py
+[10.100s] copying me_py_pkg/robot_news_station.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[10.100s] copying me_py_pkg/smartphone.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[10.100s] running install
+[10.101s] running install_lib
+[10.101s] creating /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.101s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/node_template.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.145s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/__init__.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.146s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/my_first_node.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.154s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/robot_news_station.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.155s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/smartphone.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[10.156s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/node_template.py to node_template.cpython-310.pyc
+[10.158s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/__init__.py to __init__.cpython-310.pyc
+[10.159s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[10.160s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[10.162s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[10.164s] running install_data
+[10.165s] copying resource/me_py_pkg -> /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages
+[10.165s] copying package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg
+[10.165s] running install_egg_info
+[10.177s] Copying ../../build/me_py_pkg/me_py_pkg.egg-info to /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info
+[10.182s] running install_scripts
+[10.308s] Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[10.310s] Installing robot_news_station script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[10.310s] Installing smartphone script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[10.312s] writing list of installed files to '/home/kv/ME_ws/build/me_py_pkg/install.log'
+[10.484s] Invoked command in '/home/kv/ME_ws/src/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data --force

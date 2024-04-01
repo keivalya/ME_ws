@@ -1,0 +1,22 @@
+[4.478s] Invoking command in '/home/kv/ME_ws/src/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data
+[6.420s] running egg_info
+[6.423s] writing ../../build/me_py_pkg/me_py_pkg.egg-info/PKG-INFO
+[6.428s] writing dependency_links to ../../build/me_py_pkg/me_py_pkg.egg-info/dependency_links.txt
+[6.435s] writing entry points to ../../build/me_py_pkg/me_py_pkg.egg-info/entry_points.txt
+[6.436s] writing requirements to ../../build/me_py_pkg/me_py_pkg.egg-info/requires.txt
+[6.437s] writing top-level names to ../../build/me_py_pkg/me_py_pkg.egg-info/top_level.txt
+[6.468s] reading manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[6.469s] writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[6.470s] running build
+[6.470s] running build_py
+[6.470s] running install
+[6.483s] running install_lib
+[6.485s] running install_data
+[6.485s] running install_egg_info
+[6.485s] removing '/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.487s] Copying ../../build/me_py_pkg/me_py_pkg.egg-info to /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info
+[6.493s] running install_scripts
+[6.609s] Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[6.610s] Installing robot_news_station script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[6.613s] writing list of installed files to '/home/kv/ME_ws/build/me_py_pkg/install.log'
+[6.743s] Invoked command in '/home/kv/ME_ws/src/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data

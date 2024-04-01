@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000714] (me_py_pkg) JobQueued: {'identifier': 'me_py_pkg', 'dependencies': OrderedDict()}
+[0.000871] (me_py_pkg) JobStarted: {'identifier': 'me_py_pkg'}
+[0.097726] (-) TimerEvent: {}
+[0.198428] (-) TimerEvent: {}
+[0.299223] (-) TimerEvent: {}
+[0.400499] (-) TimerEvent: {}
+[0.501074] (-) TimerEvent: {}
+[0.602183] (-) TimerEvent: {}
+[0.703824] (-) TimerEvent: {}
+[0.804548] (-) TimerEvent: {}
+[0.905604] (-) TimerEvent: {}
+[1.007423] (-) TimerEvent: {}
+[1.108417] (-) TimerEvent: {}
+[1.209398] (-) TimerEvent: {}
+[1.310849] (-) TimerEvent: {}
+[1.424339] (-) TimerEvent: {}
+[1.525625] (-) TimerEvent: {}
+[1.626134] (-) TimerEvent: {}
+[1.727202] (-) TimerEvent: {}
+[1.828815] (-) TimerEvent: {}
+[1.929473] (-) TimerEvent: {}
+[2.029965] (-) TimerEvent: {}
+[2.131851] (-) TimerEvent: {}
+[2.232487] (-) TimerEvent: {}
+[2.333149] (-) TimerEvent: {}
+[2.433722] (-) TimerEvent: {}
+[2.534587] (-) TimerEvent: {}
+[2.635650] (-) TimerEvent: {}
+[2.738174] (-) TimerEvent: {}
+[2.840570] (-) TimerEvent: {}
+[2.942580] (-) TimerEvent: {}
+[3.043510] (-) TimerEvent: {}
+[3.144685] (-) TimerEvent: {}
+[3.245771] (-) TimerEvent: {}
+[3.346916] (-) TimerEvent: {}
+[3.447599] (-) TimerEvent: {}
+[3.548373] (-) TimerEvent: {}
+[3.655492] (-) TimerEvent: {}
+[3.756127] (-) TimerEvent: {}
+[3.858442] (-) TimerEvent: {}
+[3.960406] (-) TimerEvent: {}
+[4.061195] (-) TimerEvent: {}
+[4.162418] (-) TimerEvent: {}
+[4.172619] (me_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/kv/ME_ws/build/me_py_pkg/build'], 'cwd': '/home/kv/ME_ws/build/me_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kv', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kv/ros2_ws/install/odrive_can/lib:/home/kv/ros2_ws/install/minimec_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kv', 'OLDPWD': '/home/kv/ME_ws/src/me_py_pkg/me_py_pkg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1250', 'SYSTEMD_EXEC_PID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9882', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kv/ME_ws/install:/home/kv/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kv', 'JOURNAL_STREAM': '8:20413', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kv', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kv-vm:@/tmp/.ICE-unix/1405,unix/kv-vm:/tmp/.ICE-unix/1405', 'INVOCATION_ID': 'f795d299f2f4426c83680f3c3837a545', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RWZFL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kv/ros2_ws/install/minimec_driver:/home/kv/ros2_ws/install/minimec_control:/home/kv/ros2_ws/install/odrive_can:/home/kv/ros2_ws/install/my_py_pkg:/home/kv/ros2_ws/install/minimec_msgs:/home/kv/ros2_ws/install/minimec_lights:/home/kv/ros2_ws/install/minimec_description:/home/kv/ros2_ws/install/minimec_bringup:/home/kv/ME_ws/install/me_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5f6d1929-f53b-4d18-84c6-661fce089bf2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kv/ME_ws/build/me_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:/home/kv/ME_ws/build/me_py_pkg:/home/kv/ros2_ws/install/odrive_can/local/lib/python3.10/dist-packages:/home/kv/ros2_ws/build/my_py_pkg:/home/kv/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kv/ros2_ws/install/minimec_msgs/local/lib/python3.10/dist-packages:/home/kv/ros2_ws/install/minimec_lights/lib/python3.10/site-packages:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kv/ros2_ws/install/minimec_driver:/home/kv/ros2_ws/install/minimec_control:/home/kv/ros2_ws/install/odrive_can:/home/kv/ros2_ws/install/minimeclib:/home/kv/ros2_ws/install/minimec_msgs:/home/kv/ros2_ws/install/minimec_description:/home/kv/ros2_ws/install/minimec_bringup'}, 'shell': False}
+[4.263982] (-) TimerEvent: {}
+[4.364746] (-) TimerEvent: {}
+[4.466626] (-) TimerEvent: {}
+[4.567859] (-) TimerEvent: {}
+[4.669621] (-) TimerEvent: {}
+[4.770724] (-) TimerEvent: {}
+[4.871779] (-) TimerEvent: {}
+[4.972629] (-) TimerEvent: {}
+[5.073920] (-) TimerEvent: {}
+[5.174660] (-) TimerEvent: {}
+[5.275612] (-) TimerEvent: {}
+[5.377050] (-) TimerEvent: {}
+[5.477596] (-) TimerEvent: {}
+[5.578231] (-) TimerEvent: {}
+[5.679603] (-) TimerEvent: {}
+[5.780238] (-) TimerEvent: {}
+[5.880030] (me_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.880623] (-) TimerEvent: {}
+[5.983609] (-) TimerEvent: {}
+[6.084870] (-) TimerEvent: {}
+[6.185975] (-) TimerEvent: {}
+[6.287329] (-) TimerEvent: {}
+[6.388153] (-) TimerEvent: {}
+[6.488909] (-) TimerEvent: {}
+[6.589953] (-) TimerEvent: {}
+[6.690900] (-) TimerEvent: {}
+[6.792293] (-) TimerEvent: {}
+[6.893807] (-) TimerEvent: {}
+[6.995326] (-) TimerEvent: {}
+[7.054015] (me_py_pkg) StdoutLine: {'line': b'Removing /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me-py-pkg.egg-link (link to .)\n'}
+[7.095964] (-) TimerEvent: {}
+[7.176800] (me_py_pkg) CommandEnded: {'returncode': 0}
+[7.180661] (me_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/me_py_pkg', 'build', '--build-base', '/home/kv/ME_ws/build/me_py_pkg/build', 'install', '--record', '/home/kv/ME_ws/build/me_py_pkg/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/kv/ME_ws/src/me_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kv', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kv/ros2_ws/install/odrive_can/lib:/home/kv/ros2_ws/install/minimec_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kv', 'OLDPWD': '/home/kv/ME_ws/src/me_py_pkg/me_py_pkg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1250', 'SYSTEMD_EXEC_PID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9882', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kv/ME_ws/install:/home/kv/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kv', 'JOURNAL_STREAM': '8:20413', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kv', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kv-vm:@/tmp/.ICE-unix/1405,unix/kv-vm:/tmp/.ICE-unix/1405', 'INVOCATION_ID': 'f795d299f2f4426c83680f3c3837a545', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RWZFL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kv/ros2_ws/install/minimec_driver:/home/kv/ros2_ws/install/minimec_control:/home/kv/ros2_ws/install/odrive_can:/home/kv/ros2_ws/install/my_py_pkg:/home/kv/ros2_ws/install/minimec_msgs:/home/kv/ros2_ws/install/minimec_lights:/home/kv/ros2_ws/install/minimec_description:/home/kv/ros2_ws/install/minimec_bringup:/home/kv/ME_ws/install/me_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5f6d1929-f53b-4d18-84c6-661fce089bf2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kv/ME_ws/build/me_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:/home/kv/ME_ws/build/me_py_pkg:/home/kv/ros2_ws/install/odrive_can/local/lib/python3.10/dist-packages:/home/kv/ros2_ws/build/my_py_pkg:/home/kv/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/kv/ros2_ws/install/minimec_msgs/local/lib/python3.10/dist-packages:/home/kv/ros2_ws/install/minimec_lights/lib/python3.10/site-packages:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kv/ros2_ws/install/minimec_driver:/home/kv/ros2_ws/install/minimec_control:/home/kv/ros2_ws/install/odrive_can:/home/kv/ros2_ws/install/minimeclib:/home/kv/ros2_ws/install/minimec_msgs:/home/kv/ros2_ws/install/minimec_description:/home/kv/ros2_ws/install/minimec_bringup'}, 'shell': False}
+[7.196244] (-) TimerEvent: {}
+[7.297276] (-) TimerEvent: {}
+[7.399227] (-) TimerEvent: {}
+[7.499965] (-) TimerEvent: {}
+[7.601900] (-) TimerEvent: {}
+[7.702489] (-) TimerEvent: {}
+[7.803395] (-) TimerEvent: {}
+[7.904471] (-) TimerEvent: {}
+[8.005424] (-) TimerEvent: {}
+[8.106089] (-) TimerEvent: {}
+[8.207535] (-) TimerEvent: {}
+[8.308627] (-) TimerEvent: {}
+[8.409265] (-) TimerEvent: {}
+[8.510619] (-) TimerEvent: {}
+[8.541702] (me_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.544141] (me_py_pkg) StdoutLine: {'line': b'writing ../../build/me_py_pkg/me_py_pkg.egg-info/PKG-INFO\n'}
+[8.553268] (me_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/me_py_pkg/me_py_pkg.egg-info/dependency_links.txt\n'}
+[8.560869] (me_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/me_py_pkg/me_py_pkg.egg-info/entry_points.txt\n'}
+[8.561665] (me_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/me_py_pkg/me_py_pkg.egg-info/requires.txt\n'}
+[8.562524] (me_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/me_py_pkg/me_py_pkg.egg-info/top_level.txt\n'}
+[8.575038] (me_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'\n"}
+[8.591870] (me_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'\n"}
+[8.592379] (me_py_pkg) StdoutLine: {'line': b'running build\n'}
+[8.592765] (me_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.593018] (me_py_pkg) StdoutLine: {'line': b'copying me_py_pkg/my_first_node.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg\n'}
+[8.593245] (me_py_pkg) StdoutLine: {'line': b'running install\n'}
+[8.593467] (me_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.593792] (me_py_pkg) StdoutLine: {'line': b'creating /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg\n'}
+[8.594024] (me_py_pkg) StdoutLine: {'line': b'copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/__init__.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg\n'}
+[8.594301] (me_py_pkg) StdoutLine: {'line': b'copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/my_first_node.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg\n'}
+[8.601895] (me_py_pkg) StdoutLine: {'line': b'byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[8.602324] (me_py_pkg) StdoutLine: {'line': b'byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[8.602862] (me_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.603198] (me_py_pkg) StdoutLine: {'line': b'copying resource/me_py_pkg -> /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages\n'}
+[8.603667] (me_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg\n'}
+[8.603993] (me_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.604518] (me_py_pkg) StdoutLine: {'line': b'Copying ../../build/me_py_pkg/me_py_pkg.egg-info to /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info\n'}
+[8.612458] (-) TimerEvent: {}
+[8.614264] (me_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.712876] (-) TimerEvent: {}
+[8.721229] (me_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg\n'}
+[8.725950] (me_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/kv/ME_ws/build/me_py_pkg/install.log'\n"}
+[8.814167] (-) TimerEvent: {}
+[8.839698] (me_py_pkg) CommandEnded: {'returncode': 0}
+[8.890940] (me_py_pkg) JobEnded: {'identifier': 'me_py_pkg', 'rc': 0}
+[8.892515] (-) EventReactorShutdown: {}

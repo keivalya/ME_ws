@@ -1,0 +1,20 @@
+[3.560s] Invoking command in '/home/kv/ME_ws/build/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build --no-deps symlink_data --force
+[5.257s] running develop
+[6.467s] running egg_info
+[6.468s] writing me_py_pkg.egg-info/PKG-INFO
+[6.470s] writing dependency_links to me_py_pkg.egg-info/dependency_links.txt
+[6.471s] writing entry points to me_py_pkg.egg-info/entry_points.txt
+[6.472s] writing requirements to me_py_pkg.egg-info/requires.txt
+[6.472s] writing top-level names to me_py_pkg.egg-info/top_level.txt
+[6.498s] reading manifest file 'me_py_pkg.egg-info/SOURCES.txt'
+[6.502s] writing manifest file 'me_py_pkg.egg-info/SOURCES.txt'
+[6.520s] running build_ext
+[6.521s] Creating /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me-py-pkg.egg-link (link to .)
+[6.524s] Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[6.525s] Installing robot_news_station script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[6.527s] 
+[6.528s] Installed /home/kv/ME_ws/build/me_py_pkg
+[6.528s] running symlink_data
+[6.529s] symbolically linking /home/kv/ME_ws/build/me_py_pkg/resource/me_py_pkg -> /home/kv/ME_ws/install/me_py_pkg/share/ament_index/resource_index/packages
+[6.529s] symbolically linking /home/kv/ME_ws/build/me_py_pkg/package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg
+[6.681s] Invoked command in '/home/kv/ME_ws/build/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kv/ME_ws/build/me_py_pkg/build --no-deps symlink_data --force

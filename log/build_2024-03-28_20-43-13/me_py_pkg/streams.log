@@ -1,0 +1,26 @@
+[5.745s] Invoking command in '/home/kv/ME_ws/src/me_py_pkg': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data
+[7.815s] running egg_info
+[7.818s] writing ../../build/me_py_pkg/me_py_pkg.egg-info/PKG-INFO
+[7.870s] writing dependency_links to ../../build/me_py_pkg/me_py_pkg.egg-info/dependency_links.txt
+[7.872s] writing entry points to ../../build/me_py_pkg/me_py_pkg.egg-info/entry_points.txt
+[7.872s] writing requirements to ../../build/me_py_pkg/me_py_pkg.egg-info/requires.txt
+[7.873s] writing top-level names to ../../build/me_py_pkg/me_py_pkg.egg-info/top_level.txt
+[7.897s] reading manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[7.917s] writing manifest file '../../build/me_py_pkg/me_py_pkg.egg-info/SOURCES.txt'
+[7.917s] running build
+[7.917s] running build_py
+[7.921s] copying me_py_pkg/robot_news_station.py -> /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg
+[7.922s] running install
+[7.923s] running install_lib
+[7.928s] copying /home/kv/ME_ws/build/me_py_pkg/build/lib/me_py_pkg/robot_news_station.py -> /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg
+[7.939s] byte-compiling /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[7.940s] running install_data
+[7.950s] copying package.xml -> /home/kv/ME_ws/install/me_py_pkg/share/me_py_pkg
+[7.951s] running install_egg_info
+[7.951s] removing '/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[7.952s] Copying ../../build/me_py_pkg/me_py_pkg.egg-info to /home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages/me_py_pkg-0.0.0-py3.10.egg-info
+[7.963s] running install_scripts
+[8.086s] Installing py_node script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[8.087s] Installing robot_news_station script to /home/kv/ME_ws/install/me_py_pkg/lib/me_py_pkg
+[8.090s] writing list of installed files to '/home/kv/ME_ws/build/me_py_pkg/install.log'
+[8.235s] Invoked command in '/home/kv/ME_ws/src/me_py_pkg' returned '0': PYTHONPATH=/home/kv/ME_ws/build/me_py_pkg/prefix_override:/home/kv/ME_ws/install/me_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/me_py_pkg build --build-base /home/kv/ME_ws/build/me_py_pkg/build install --record /home/kv/ME_ws/build/me_py_pkg/install.log --single-version-externally-managed install_data
